@@ -1,9 +1,9 @@
 ---
 mysql_pkgs:
   - libselinux-python
-  - mysql-server
+  - mariadb-server
   - MySQL-python
 
-mysql_service: mysqld
+mysql_service: mariadb
 
 mysql_conf_dir: "/etc/"

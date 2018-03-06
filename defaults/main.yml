@@ -9,7 +9,9 @@ mysql_db:
        replicate: yes
      - name: bar
        replicate: no
-     - encoding: utf8
+
+#Database settings
+encoding: utf8
 
 mysql_users:
      - name: benz
